@@ -1,7 +1,67 @@
+:root {
+  --primary-color: #9d0d0d;
+  --primary-color-2: #ce0d14;
+  --secondary-color: #6b6b6b;
+}
+
 html, body {
   font-family: sans-serif;
 }
 
-canvas {
-  display: block;
+header {
+  text-align: center;
+  padding: 1rem;
+  background: linear-gradient(45deg, var(--primary-color), var(--primary-color-2));
+}
+
+.page-title{
+  font-weight: bold;
+}
+
+.projects-title{
+  padding: 1rem;
+  font-weight: bold;
+  background: var(--secondary-color);
+}
+
+.projects-contents {
+  margin: 1rem;
+  gap: 1rem;
+}
+
+.project {
+  width: 24rem;
+}
+
+.project-img {
+  height: 16rem;
+  object-fit: cover;
+}
+
+.project-title {
+  height: 2rem;
+  font-weight: bold;
+}
+
+.project-text {
+  height: 8rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: linear-gradient(45deg, var(--primary-color), var(--primary-color-2));
+}
+
+.icon-youtube {
+  height: 4rem;
+}
+
+.icon-github {
+  height: 4rem;
+}
+
+a:hover {
+  opacity: 0.8;
+  transition: 0.3s;
 }

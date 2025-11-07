@@ -11,28 +11,68 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
   </head>
 
-  <header class="bg-primary text-white d-flex justify-content-center">
-    <h1>AkienMain</h1>
+  <header>
+    <h1 class="page-title text-white">AkienMain</h1>
   </header>
 
   <body>
-    <h2 class="bg-secondary text-white">Projects</h2>
-    <div>
-      <img src="https://github.com/AkienMain/sudoku_solver/blob/master/output/sample.png/output.png?raw=true" alt="output.png" height="400">
-      <h3>Sudoku Solver</h3>
-      <a href="https://youtube.com/playlist?list=PLzXRGAno1PpEBNPDhm04EpcvdPlHtYrbK&si=cuJbIADaTkguUID_">YouTube</a>
-      <a href="https://github.com/AkienMain/sudoku_solver">GitHub</a>
+
+    <div class="projects vstack">
+
+      <h2 class="projects-title text-white">Projects</h2>
+
+      <div class="projects-contents hstack">
+
+        <div class="project card">
+          <img class="project-img card-img-top" src="https://github.com/AkienMain/sudoku_solver/blob/master/output/sample.png/output.png?raw=true" alt="Image"/>
+          <div class="project-body card-body">
+            <h3 class="project-title card-title">Sudoku Solver</h3>
+            <p class="project-text card-text">
+              It solves Sudoku problem. It inputs image then overwrite and output it.
+            </p>
+            <div class="social row row-cols-4">
+              <div class="col">
+                <a href="https://github.com/AkienMain/sudoku_solver">
+                  <img class="icon-github" src="vector/github-mark.svg" alt="GitHub">
+                </a>
+              </div>
+              <div class="col">
+                <a href="https://youtube.com/playlist?list=PLzXRGAno1PpEBNPDhm04EpcvdPlHtYrbK&si=cuJbIADaTkguUID_">
+                  <img class="icon-youtube" src="image/yt_icon_red_digital.png" alt="YouTube">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project card">
+          <img class="project-img card-img-top" src="https://github.com/AkienMain/web-quiz-app/blob/main/images/i004.png?raw=true" alt="Image"/>
+          <div class="project-body card-body">
+            <h3 class="project-title card-title">webQuizApp</h3>
+            <p class="project-text card-text">
+              This is a web application for quiz. You can set your own questions on spreadSheet. It calculates correct answer rate.
+            </p>
+            <div class="social row row-cols-4">
+              <div class="col">
+                <a href="https://github.com/AkienMain/web-quiz-app">
+                  <img class="icon-github" src="vector/github-mark.svg" alt="GitHub">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
     </div>
-    <div>
-      <img src="https://github.com/AkienMain/web-quiz-app/blob/main/images/i004.png?raw=true" alt="output.png" height="400">
-      <h3>webQuizApp</h3>
-      <a href="https://github.com/AkienMain/web-quiz-app">GitHub</a>
-    </div>
+
   </body>
 
-  <footer class="bg-primary text-white d-flex justify-content-center">
-    AkienMain Website<br>
-    akienmain@gmail.com
+  <footer>
+    <div class="text-white">
+      <div>AkienMain Website</div>
+      <div>akienmain@gmail.com</div>
+    </div>
   </footer>
 
 </html>
