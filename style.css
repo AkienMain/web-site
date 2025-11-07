@@ -10,7 +10,7 @@ html, body {
 
 header {
   text-align: center;
-  padding: 1rem;
+  padding: 3rem 1rem 1rem 1rem;
   background: linear-gradient(45deg, var(--primary-color), var(--primary-color-2));
 }
 
@@ -47,8 +47,18 @@ header {
   height: 8rem;
 }
 
+.open-sample-button-div {
+  margin: 0rem;
+}
+
+.open-sample-button {
+  background: linear-gradient(45deg, var(--primary-color), var(--primary-color-2));
+  border: none;
+  vertical-align: middle;
+}
+
 .social {
-  margin: 0rem 1rem;
+  padding: 0.8rem 0rem 0rem 0rem;
   gap: 1rem;
 }
 
@@ -63,12 +73,12 @@ header {
 }
 
 a:hover {
-  opacity: 0.8;
+  opacity: 0.5;
   transition: 0.3s;
 }
 
 footer {
   text-align: center;
-  padding: 1rem;
+  padding: 1rem 1rem 3rem 1rem;
   background: linear-gradient(45deg, var(--primary-color), var(--primary-color-2));
 }
