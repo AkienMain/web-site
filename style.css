@@ -72,6 +72,12 @@ header {
   height: 4rem;
 }
 
+.icon-pdf {
+  padding: 0.6rem;
+  height: 4rem;
+  filter: invert(10%) sepia(85%) saturate(6555%) hue-rotate(3deg) brightness(82%) contrast(112%); /* #B80000 converted by https://codepen.io/sosuke/pen/Pjoqqp */
+}
+
 a:hover {
   opacity: 0.5;
   transition: 0.3s;
