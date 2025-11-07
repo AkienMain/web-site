@@ -47,21 +47,28 @@ header {
   height: 8rem;
 }
 
-footer {
-  text-align: center;
-  padding: 1rem;
-  background: linear-gradient(45deg, var(--primary-color), var(--primary-color-2));
+.social {
+  margin: 0rem 1rem;
+  gap: 1rem;
 }
 
 .icon-youtube {
+  padding: 0.2rem;
   height: 4rem;
 }
 
 .icon-github {
+  padding: 0.6rem;
   height: 4rem;
 }
 
 a:hover {
   opacity: 0.8;
   transition: 0.3s;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: linear-gradient(45deg, var(--primary-color), var(--primary-color-2));
 }
