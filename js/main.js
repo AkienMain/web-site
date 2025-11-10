@@ -1,17 +1,31 @@
-
-const dataJson = '[{"name":"sudokuSolver","abstract":"It solves Sudoku problem. It inputs image then overwrite and output it.","image":{"url":"https://github.com/AkienMain/sudoku_solver/blob/master/output/sample.png/output.png?raw=true"},"openSample":{"url":"https://colab.research.google.com/drive/1Sv39J8c2s3OvC8YfIHK6Sz2S284V5wqG"},"social":[{"type":"GitHub","url":"https://github.com/AkienMain/sudoku_solver"},{"type":"YouTube","url":"https://youtube.com/playlist?list=PLzXRGAno1PpEBNPDhm04EpcvdPlHtYrbK&si=cuJbIADaTkguUID_"},{"type":"PDF","url":"https://docs.google.com/viewer?url=https://raw.githubusercontent.com/AkienMain/sudoku_solver/master/sudoku_solver_slides.pdf"}]},{"name":"webQuizApp","abstract":"This is a web application for quiz. You can set your own questions on spreadSheet. It calculates correct answer rate.","image":{"url":"https://github.com/AkienMain/web-quiz-app/blob/main/images/i004.png?raw=true"},"openSample":{"url":"https://akienmain.github.io/web-quiz-app/?deployId=AKfycbzawU6UrMJ09U8XodGZQzRl4j7LWMtMp7qM4N4pAIvdhq9Jp-lG5n4uyPuYnoU4c-oA&spreadsheetId=1x6S9YuGaWFpyFIwLl3EXBtH1P32GPfE4T4iKdAVGBTg"},"social":[{"type":"GitHub","url":"https://github.com/AkienMain/web-quiz-app"}]}]';
-
 window.onload = function() {
+    let dataUrl = 'https://raw.githubusercontent.com/AkienMain/web-site/master/data/data.json';
+    getData(dataUrl);
+};
 
-    var data = JSON.parse(dataJson);
-    // document.getElementById("debug").innerHTML = data[0].name;
+async function getData(url) {
+    try {
+        const response = await fetch(url);
+        const data = await response.json();
 
+        showPage(data);
+
+        if (!response.ok) {
+            throw new Error(`Response status: ${response.status}`);
+        }
+
+        console.log(result);
+    } catch (error) {
+        console.error(error.message);
+    }
+}
+
+function showPage(data){
     let div = document.getElementById('projects-contents');
     for (let i=0; i < data.length; i++) {
         div.appendChild(createProjectCard(data[i]));
     }
-
-};
+}
 
 function createProjectCard(projectData) {
     let div = document.createElement('div');
