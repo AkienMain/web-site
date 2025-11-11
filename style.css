@@ -78,6 +78,18 @@ header {
   filter: invert(10%) sepia(85%) saturate(6555%) hue-rotate(3deg) brightness(82%) contrast(112%); /* #B80000 converted by https://codepen.io/sosuke/pen/Pjoqqp */
 }
 
+.button-mail {
+  width: 4rem;
+  height: 3rem;
+  margin: 1rem;
+}
+
+.icon-mail {
+  width: 2rem;
+  height: 2rem;
+  filter: invert(100%) sepia(6%) saturate(0%) hue-rotate(359deg) brightness(104%) contrast(107%);
+}
+
 a:hover {
   opacity: 0.5;
   transition: 0.3s;
