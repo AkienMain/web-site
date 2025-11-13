@@ -1,6 +1,6 @@
 [
     {
-        "name": "sudoku Solver",
+        "name": "Sudoku Solver",
         "abstract": "It solves Sudoku problem. It inputs image then overwrite and output it.",
         "image": {
             "url": "https://github.com/AkienMain/sudoku_solver/blob/master/output/sample.png/output.png?raw=true"
@@ -36,6 +36,22 @@
             {
                 "type": "GitHub",
                 "url": "https://github.com/AkienMain/web-quiz-app"
+            }
+        ]
+    },
+    {
+        "name": "Yoga Pose Classification by OCR",
+        "abstract": "Yoga pose classification by OCR (optical character recognition) method recognizing a pose as a character",
+        "image": {
+            "url": "https://github.com/AkienMain/yogapose-classification-ocr/blob/main/README_img/004.png?raw=true"
+        },
+        "openSample": {
+            "url": "https://colab.research.google.com/github/AkienMain/yogapose-classification-ocr/blob/master/main.ipynb"
+        },
+        "social": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/AkienMain/yogapose-classification-ocr"
             }
         ]
     }
