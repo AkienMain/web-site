@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 :root {
   --primary-color: #9d0d0d;
   --primary-color-2: #ce0d14;
@@ -5,27 +8,38 @@
 }
 
 html, body {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
   text-align: center;
   padding: 3rem 1rem 1rem 1rem;
-  background: linear-gradient(45deg, var(--primary-color), var(--primary-color-2));
 }
 
 .page-title{
-  font-weight: bold;
+  font-family: 'MuseoModerno';
+  background: linear-gradient(45deg, var(--primary-color), var(--primary-color-2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.projects-title{
-  padding: 1rem;
-  font-weight: bold;
-  background: var(--secondary-color);
+.projects{
+  margin: 0rem 4rem;
+  padding: 2rem 0rem;
 }
+
+.shadow-inner{
+  box-shadow: inset 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.shadow-outer{
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* .projects-title {} */
 
 .projects-contents {
-  margin: 1rem;
+  margin: 2rem;
   gap: 1rem;
 }
 
@@ -39,8 +53,7 @@ header {
 }
 
 .project-title {
-  height: 2rem;
-  font-weight: bold;
+  height: 5rem;
 }
 
 .project-text {
@@ -87,7 +100,7 @@ header {
 .icon-mail {
   width: 2rem;
   height: 2rem;
-  filter: invert(100%) sepia(6%) saturate(0%) hue-rotate(359deg) brightness(104%) contrast(107%);
+  filter: invert(0%) sepia(100%) saturate(7441%) hue-rotate(175deg) brightness(104%) contrast(112%);  /* #000000 converted by https://codepen.io/sosuke/pen/Pjoqqp */
 }
 
 a:hover {
@@ -98,5 +111,4 @@ a:hover {
 footer {
   text-align: center;
   padding: 1rem 1rem 3rem 1rem;
-  background: linear-gradient(45deg, var(--primary-color), var(--primary-color-2));
 }

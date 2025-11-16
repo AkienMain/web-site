@@ -31,6 +31,8 @@ function createProjectCard(projectData) {
     let div = document.createElement('div');
     div.classList.add('project');
     div.classList.add('card');
+    div.classList.add('border-0');
+    div.classList.add('shadow-outer');
     div.appendChild(createProjectImg(projectData.image.url));
     div.appendChild(createProjectBody(projectData));
     return div;
