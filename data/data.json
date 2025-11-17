@@ -52,6 +52,10 @@
             {
                 "type": "GitHub",
                 "url": "https://github.com/AkienMain/yogapose-classification-ocr"
+            },
+            {
+                "type": "PDF",
+                "url": "https://docs.google.com/viewer?url=https://raw.githubusercontent.com/AkienMain/yogapose-classification-ocr/main/slides.pdf"
             }
         ]
     }
