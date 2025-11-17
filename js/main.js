@@ -87,6 +87,7 @@ function createOpenSample(url) {
     a.href = url;
     a.role = 'button';
     a.innerHTML = 'Open Sample';
+    a.target = '_blank';
 
     div.appendChild(a);
     return div;
@@ -109,6 +110,7 @@ function createIconSocial(social) {
 
         let a = document.createElement('a');
         a.href = url;
+        a.target = '_blank';
 
         let img = document.createElement('img');
         if (typeStr == 'GitHub') {
