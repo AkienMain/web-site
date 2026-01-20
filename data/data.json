@@ -58,5 +58,21 @@
                 "url": "https://docs.google.com/viewer?url=https://raw.githubusercontent.com/AkienMain/yogapose-classification-ocr/main/slides.pdf"
             }
         ]
+    },
+    {
+        "name": "p5.js Works",
+        "abstract": "The works created using p5.js are on display.",
+        "image": {
+            "url": "https://github.com/AkienMain/p5js-works/blob/main/work001-voronoi/images/image_001.png?raw=true"
+        },
+        "openSample": {
+            "url": "https://akienmain.github.io/p5js-works"
+        },
+        "social": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/AkienMain/p5js-works"
+            }
+        ]
     }
 ]
