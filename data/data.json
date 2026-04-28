@@ -74,5 +74,21 @@
                 "url": "https://github.com/AkienMain/p5js-works"
             }
         ]
+    },
+    {
+        "name": "CV Generator",
+        "abstract": "This is a browser-based CV generator. You can manage contents easily using json file.",
+        "image": {
+            "url": "https://github.com/AkienMain/cv-generator/blob/main/images/image_001.png?raw=true"
+        },
+        "openSample": {
+            "url": "https://akienmain.github.io/cv-generator"
+        },
+        "social": [
+            {
+                "type": "GitHub",
+                "url": "https://github.com/AkienMain/cv-generator"
+            }
+        ]
     }
 ]
